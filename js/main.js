@@ -1,4 +1,12 @@
-var sswiperBanner = new Swiper('#banner>.bigphoto>.swiper-container');
+var swiperBanner = new Swiper('#banner>.bigphoto>.swiper-container',{
+    autoplay: 3000,
+    autoplayDisableOnInteraction: false,
+    speed: 2000,
+    effect : 'fade',
+    zoom : true,
+    zoomMax :2,
+});
+
 window.onload = function(){
     let h = document.documentElement.clientWidth;
     console.log(h)
@@ -8,7 +16,11 @@ window.onload = function(){
             slidesPerView: 2,
             slidesPerColumn: 2,
             paginationClickable: true,
-            spaceBetween: 30
+            spaceBetween: 30,
+            autoplay: 3000,
+            speed: 2000,
+           
+            
         })
     }
     else if (h <= 797){
@@ -17,7 +29,10 @@ window.onload = function(){
                 slidesPerView: 1,
                 slidesPerColumn: 3,
                 paginationClickable: true,
-                spaceBetween: 30
+                spaceBetween: 30,
+                autoplay: 3000,
+                speed: 2000,
+                
             })
         }
         else {
@@ -26,7 +41,11 @@ window.onload = function(){
                 slidesPerView: 3,
                 slidesPerColumn: 2,
                 paginationClickable: true,
-                spaceBetween: 30
+                spaceBetween: 30,
+                autoplay: 3000,
+                speed: 2000,
+                
+                
             })
         }
 }
