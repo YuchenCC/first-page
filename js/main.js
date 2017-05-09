@@ -1,7 +1,7 @@
 var swiperBanner = new Swiper('#banner>.bigphoto>.swiper-container',{
-    autoplay: 3000,
+    autoplay: 5000,
     autoplayDisableOnInteraction: false,
-    speed: 2000,
+    speed: 4000,
     effect : 'fade',
     zoom : true,
     zoomMax :2,
@@ -19,6 +19,7 @@ window.onload = function(){
             spaceBetween: 30,
             autoplay: 3000,
             speed: 2000,
+
            
             
         })
@@ -32,7 +33,7 @@ window.onload = function(){
                 spaceBetween: 30,
                 autoplay: 3000,
                 speed: 2000,
-                
+
             })
         }
         else {
@@ -44,8 +45,7 @@ window.onload = function(){
                 spaceBetween: 30,
                 autoplay: 3000,
                 speed: 2000,
-                
-                
+              
             })
         }
 }

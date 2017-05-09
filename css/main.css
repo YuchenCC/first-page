@@ -411,6 +411,7 @@ ui ol li{
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 10px;
     background: #f7f9fb;
 }
 #showList>.show>.swiper-container>.swiper-wrapper{
