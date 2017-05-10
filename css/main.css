@@ -85,6 +85,9 @@ ui ol li{
     display: none
 }
 @media (max-width: 680px){
+   #navigation>.infoName{
+      margin-left: 0  
+}
    #navigation>.infoLink{   
       display:none;    
    }
