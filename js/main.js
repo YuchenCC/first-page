@@ -42,7 +42,7 @@ window.onload = function(){
                        },
                 onReachEnd: function(swiper){
                                 swiper.stopAutoplay()
-                                swiper.slideTo(4, 100, true)
+                                swiper.slideTo(4, 1000, true)
                                 swiper.startAutoplay()
                                 console.log('1')                        
                             }

@@ -417,15 +417,19 @@ ui ol li{
     background: #f7f9fb;
 }
 #showList>.show>.swiper-container>.swiper-wrapper{
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     background: #f7f9fb;
 }
 #showList>.show>.swiper-container>.swiper-wrapper>.swiper-slide {
     text-align: center;
     font-size: 18px;
-
     background: #f7f9fb;
            
+}
+@media (max-width: 580px){
+    #showList>.show>.swiper-container{
+        overflow: visible;
+    }
 }
 #showList>.show>.swiper-container>.swiper-wrapper>.swiper-slide>img {
     box-shadow: 0 20px 20px #ccc;      
